@@ -18,11 +18,13 @@
 			<a href="#" class="image avatar"><img src="images/Me1.png" alt="" /></a>
 			<h2>Hi, I'm Kaloyan</h1>
 				<h1>
-					<p>
-						A passionate software developer specializing in blockchain, smart contracts, and web3
-						technologies.
-						Skilled in Solidity, Foundry, and full-stack development.
-						I love building innovative decentralized applications and exploring cross-chain solutions.
+					<p><strong>
+							A passionate software developer specializing in blockchain, smart contracts, and web3
+							technologies.
+							Skilled in Solidity, Foundry, and full-stack development.
+							I love building innovative decentralized applications and exploring cross-chain solutions.
+						</strong>
+
 					</p>
 				</h1>
 		</div>
@@ -34,10 +36,10 @@
 		<!-- One -->
 		<section id="one">
 			<header class="major">
-				<h2>Welcome to my portfolio<br />
-					Discover my work and skills</h2>
+				<h1>Welcome to my portfolio<br />
+					Discover my work and skills</h1>
 			</header>
-			<p>
+			<h2>
 				I'm a Software Engineer with experience in .NET, HTML, CSS, and SQL, with a strong focus on data
 				analysis
 				using SQL and statistics. I have practical knowledge in networking with Cisco technologies and am
@@ -50,7 +52,7 @@
 
 				Outside of tech, I’m a gym enthusiast who values discipline, consistency, and personal growth — both in
 				and out of the code.
-			</p>
+			</h2>
 			<ul class="actions">
 				<li><a href="#two" class="button">See My Work</a></li>
 			</ul>
@@ -105,45 +107,49 @@
 				I’m always open to discussing new projects, collaborations, or opportunities.
 				Feel free to reach out via LinkedIn or email — I’d love to connect and hear from you!
 			</p>
-			<div class="row">
-				<div class="col-8 col-12-small">
-					<form method="post" action="/contact"> <!-- Update the action URL -->
-						<div class="row gtr-uniform gtr-50">
-							<div class="col-6 col-12-xsmall">
-								<input type="text" name="name" id="name" placeholder="Your Name" required />
-							</div>
-							<div class="col-6 col-12-xsmall">
-								<input type="email" name="email" id="email" placeholder="Your Email" required />
-							</div>
-							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Your Message" rows="4"
-									required></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="button primary" /></li>
-						</ul>
-					</form>
+			<form method="POST" action="https://formspree.io/f/xwpqqnak">
+				<div class="row gtr-uniform gtr-50">
+					<div class="col-6 col-12-xsmall">
+						<input type="text" name="name" id="name" placeholder="Your Name" required />
+					</div>
+					<div class="col-6 col-12-xsmall">
+						<input type="email" name="email" id="email" placeholder="Your Email" required />
+					</div>
+					<div class="col-12">
+						<textarea name="message" id="message" placeholder="Your Message" rows="4" required></textarea>
+					</div>
 				</div>
-				<div class="col-4 col-12-small">
-					<ul class="labeled-icons">
-						<li>
-							<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-							Sofia, Bulgaria
-						</li>
-						<li>
-							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-							<a href="mailto:kaloyanstoichkov9@gmail.com">kaloyanstoichkov9@gmail.com</a>
-						</li>
-						<li>
-							<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
-							<a href="https://www.linkedin.com/in/kaloyan-stoichkov-105347237/" target="_blank"
-								rel="noopener noreferrer">Connect with Me on LinkedIn</a>
-						</li>
-					</ul>
-				</div>
+
+				<ul class="actions">
+					<li>
+						<input type="submit" value="Send Message" class="button primary" />
+					</li>
+				</ul>
+				<p id="form-message" style="display: none; color: green; font-weight: bold;">
+					Thank you! Your message has been sent.
+				</p>
+
+			</form>
+
+			<div class="col-4 col-12-small">
+				<ul class="labeled-icons">
+					<li>
+						<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+						Sofia, Bulgaria
+					</li>
+					<li>
+						<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+						<a href="mailto:kaloyanstoichkov9@gmail.com">kaloyanstoichkov9@gmail.com</a>
+					</li>
+					<li>
+						<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
+						<a href="https://www.linkedin.com/in/kaloyan-stoichkov-105347237/" target="_blank"
+							rel="noopener noreferrer">Connect with Me on LinkedIn</a>
+					</li>
+				</ul>
 			</div>
-		</section>
+	</div>
+	</section>
 
 	</div>
 
